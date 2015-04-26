@@ -1,0 +1,6 @@
+name: Emote
+main: emote\Emote
+api: [1.12.0]
+author: Falkirks
+version: 0.0.1
+depend: ["Volt"]
