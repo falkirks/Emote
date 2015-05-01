@@ -21,7 +21,7 @@ class Emote extends PluginBase implements Listener{
     private $currentValues;
     private $dataStore;
     public function onEnable(){
-        $this->currentValues = ["" => 0, "pos" => 0, "neg" => 0];
+        $this->currentValues = ["neu" => 0, "pos" => 0, "neg" => 0];
         $this->sentiment = new Sentiment();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
